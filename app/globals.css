@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, li, button, input, select, textarea, span, label, table, th, td, blockquote, div {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif !important;
+}
